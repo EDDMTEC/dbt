@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: pos
+    database: tb_101  
+    schema: raw_pos  
+    tables:
+      - name: country
+      - name: franchise
+      - name: location
+      - name: menu
+      - name: order_detail
+      - name: order_header
+      - name: truck
